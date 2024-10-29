@@ -1,0 +1,23 @@
+main {
+    text-align: center;
+    background-color: black;
+    font-family: arial;
+    width: 980px;
+}
+h1 {
+    font-size: 80px;
+    color: red;
+}
+
+h2 {
+    font-size: 50px;
+    color: green;
+}
+
+h3 {
+    color: blue;
+}
+
+p {
+    color: green;
+}
