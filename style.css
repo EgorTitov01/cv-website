@@ -3,7 +3,6 @@ main {
     background-color: black;
     font-family: arial;
     width: 980px;
-    color: yellow;
 }
 h1 {
     font-size: 80px;
@@ -21,4 +20,8 @@ h3 {
 
 p {
     color: green;
+}
+
+li {
+    color: yellow;
 }
