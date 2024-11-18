@@ -48,7 +48,6 @@ main {
 
 .resume {
   padding: 0;
-  break-inside: avoid;
   width: 50%;
   margin: 0 auto;
 }
