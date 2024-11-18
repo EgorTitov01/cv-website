@@ -26,26 +26,33 @@ main {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #33333;
-  width: auto;
+  width: 50;
 }
 
 .photo-contacts {
-  width: 20%;
-  margin: 20px auto;
+  width: 50%;
+  margin: 0 auto;
   padding: 0;
-  text-align: center;
-  border: 1px solid #38598b;
+  column-count: 2;
+}
+
+#name {
+  text-align: left;
+}
+
+.contacts-container {
+  break-inside: avoid;
+  text-align: center
+  
 }
 
 .image {
   width: 90%;
-  text-align: center;
-  margin: 0 auto;
 }
 
 .image img {
   border-radius: 50%;
-  width: 100%;
+  width: 60%;
   height: auto;
 }
 
@@ -53,6 +60,7 @@ main {
   padding: 0;
   width: 50%;
   margin: 0 auto;
+  break-inside: avoid;
 }
 
 section {
@@ -80,7 +88,7 @@ li {
 }
 
 .contacts li {
-  text-align: center;
+  text-align: right;
   line-height: 2em;
   list-style-position: inside;
 }
