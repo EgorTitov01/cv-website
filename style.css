@@ -49,13 +49,11 @@ main {
 
 .name-image h1 {
     display: block;
-    padding: 2px;
-    margin: 0;
-    background-color: #e7eaf6;
+    margin: 10px;
 }
 
 .image {
-  width: 100%;
+  width: 40%;
 }
 
 .image img {
