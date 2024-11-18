@@ -39,8 +39,7 @@ main {
 
 .contacts-container {
   break-inside: avoid;
-  text-align: center
-  
+  text-align: center;
 }
 
 .name-image {
@@ -48,12 +47,12 @@ main {
 }
 
 .image {
-  width: 80%;
+  width: 100%;
 }
 
 .image img {
   border-radius: 50%;
-  width: 80%;
+  width: 100%;
 }
 
 .resume {
