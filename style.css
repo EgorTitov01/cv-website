@@ -36,14 +36,15 @@ main {
   column-count: 2;
 }
 
-#name {
-  text-align: left;
-}
 
 .contacts-container {
   break-inside: avoid;
   text-align: center
   
+}
+
+.name-image {
+    break-inside: avoid;
 }
 
 .image {
@@ -52,8 +53,7 @@ main {
 
 .image img {
   border-radius: 50%;
-  width: 100%;
-  height: auto;
+  width: 50%;
 }
 
 .resume {
@@ -67,9 +67,6 @@ section {
   padding-bottom: 5px;
 }
 
-.name-image {
-    break-inside: avoid;
-}
 
 h2 {
   background-color: #e7eaf6;
