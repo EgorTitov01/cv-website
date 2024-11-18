@@ -44,6 +44,14 @@ main {
 
 .name-image {
     break-inside: avoid;
+    
+}
+
+.name-image h1 {
+    display: block;
+    padding: 2px;
+    margin: 0;
+    background-color: #e7eaf6;
 }
 
 .image {
