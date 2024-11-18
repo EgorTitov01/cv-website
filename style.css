@@ -47,11 +47,6 @@ main {
     
 }
 
-.name-image h1 {
-    display: block;
-    margin: 10px;
-}
-
 .image {
   width: 40%;
 }
