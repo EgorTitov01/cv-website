@@ -48,12 +48,12 @@ main {
 }
 
 .image {
-  width: 60%;
+  width: 80%;
 }
 
 .image img {
   border-radius: 50%;
-  width: 50%;
+  width: 80%;
 }
 
 .resume {
