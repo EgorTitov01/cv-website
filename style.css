@@ -27,8 +27,6 @@ main {
   font-weight: 400;
   color: #33333;
   width: auto;
-  column-count: 2;
-  column-rule: 2px solid #38598b;
 }
 
 .photo-contacts {
@@ -51,7 +49,8 @@ main {
 .resume {
   padding: 0;
   break-inside: avoid;
-  width: auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
 section {
