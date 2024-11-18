@@ -16,38 +16,42 @@
   src: url("./fonts/Roboto-Light.ttf");
 }
 
+body{
+  background-color: #ffffff;
+  width: auto;
+}
+
 main {
-  text-align: left;
-  background-color: white;
+  text-align: justify;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #33333;
-  width: 800px;
+  width: auto;
   column-count: 2;
   column-rule: 2px solid #38598b;
 }
 
 .photo-contacts {
   text-align: center;
+  
 }
 
 .image {
-    width: 250px;
-    height: 250px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
 }
 
 .image img {
   border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
+  height: auto;
 }
 
 .resume {
-  padding: 10px;
+  padding: 0;
   break-inside: avoid;
-  width: 900px;
+  width: auto;
 }
 
 section {
@@ -74,7 +78,7 @@ li {
   text-align: left;
 }
 
-.contacts li{
+.contacts li {
   text-align: center;
   line-height: 2em;
   list-style-position: inside;
