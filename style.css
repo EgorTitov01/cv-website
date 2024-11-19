@@ -43,11 +43,11 @@ main {
 }
 
 .name-image {
-    break-inside: avoid; 
+    break-inside: avoid;
 }
 
 .image {
-  width: 35%;
+  width: 100px;
   height: auto;
 }
 
