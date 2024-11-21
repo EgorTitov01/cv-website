@@ -26,7 +26,7 @@ main {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #33333;
-  width: 50vw;
+  width: 50;
 }
 
 .photo-contacts {
@@ -115,7 +115,8 @@ a {
 .video-mask {
     margin: 0 auto;
     width: 100%;
-    border-radius: 10px; 
+    border-radius: 30px; 
     overflow: hidden; 
+    -webkit-transform: translateZ(0);
 }
 
