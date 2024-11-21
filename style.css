@@ -111,3 +111,9 @@ a {
   background-color: #fffcbf;
   text-decoration: none;
 }
+
+video {
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+}
