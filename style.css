@@ -111,11 +111,3 @@ a {
   background-color: #fffcbf;
   text-decoration: none;
 }
-
-video {
-    z-index: -1;
-    object-fit: cover;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-}
