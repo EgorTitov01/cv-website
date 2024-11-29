@@ -2,6 +2,7 @@ body{
   width: 100vw;
   height: 100vh;
   background-image: radial-gradient(farthest-corner, #f44336, #000732);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   
