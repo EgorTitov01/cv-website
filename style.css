@@ -1,11 +1,15 @@
 body{
-  background-image: radial-gradient(ellipse, #f44336, #000732);
+  background-image: radial-gradient(farthest-corner, #f44336, #000732);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: auto;
 }
 
 main {
   text-align: justify;
-  font-family: serif;
+  font-family: monospace, serif;
+  font-size: 14px;
+  line-height: 1.5;
   font-weight: 400;
   color: #fff;
   width: 50;
