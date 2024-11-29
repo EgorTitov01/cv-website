@@ -4,8 +4,9 @@ body{
   background-image: radial-gradient(farthest-corner, #f44336, #000732);
   background-position: center;
   background-repeat: no-repeat;
+  background-clip: border-box;
   background-size: cover;
-  
+  overflow: hidden;
 }
 
 main {
@@ -94,7 +95,7 @@ hr {
 
 a {
   display: inline-block;
-  color: grey;
+  color: #f7e8e4;
   text-decoration: none;
 }
 
