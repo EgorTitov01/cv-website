@@ -37,7 +37,7 @@ main {
 
 .name-image {
   break-inside: avoid;
-  padding: 18px 7px;
+  padding: 18px 10px;
   background-color: #e8a426;
   width: 60%;
   border-radius: 5px;
@@ -46,13 +46,14 @@ main {
 }
 
 .image {
-  width: 100%;
+  width: 50%;
   height: auto;
   padding: 5px 5px;
+  margin: auto auto;
 }
 
 .image img {
-  border-radius: 10px;
+  border-radius: 50%;
   max-width: 100%;
   height: auto;
 }
