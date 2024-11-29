@@ -1,8 +1,10 @@
 body{
+  width: 100vw;
+  height: 100vh;
   background-image: radial-gradient(farthest-corner, #f44336, #000732);
   background-repeat: no-repeat;
   background-size: cover;
-  width: auto;
+  
 }
 
 main {
@@ -91,7 +93,7 @@ hr {
 
 a {
   display: inline-block;
-  color: #fff;
+  color: grey;
   text-decoration: none;
 }
 
