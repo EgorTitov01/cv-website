@@ -4,7 +4,7 @@ body{
   background-image: radial-gradient(farthest-corner, #f44336, #000732);
   background-position: center;
   background-repeat: no-repeat;
-  background-clip: border-box;
+  background-clip: content-box;
   background-size: cover;
   overflow: hidden;
 }
