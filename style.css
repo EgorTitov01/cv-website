@@ -42,16 +42,17 @@ main {
   width: 60%;
   border-radius: 5px;
   font-size: 20px;
+  text-align: center;
 }
 
 .image {
-  width: 100px;
+  width: 100%;
   height: auto;
   padding: 5px 5px;
 }
 
 .image img {
-  border-radius: 50%;
+  border-radius: 10px;
   max-width: 100%;
   height: auto;
 }
