@@ -1,31 +1,13 @@
-@font-face {
-  font-weight: 700;
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-Bold.ttf");
-}
-
-@font-face {
-  font-weight: 400;
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-Regular.ttf");
-}
-
-@font-face {
-  font-weight: 300; 
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-Light.ttf");
-}
-
 body{
-  background-color: #ffffff;
+  background-image: radial-gradient(ellipse, #f44336, #000732);
   width: auto;
 }
 
 main {
   text-align: justify;
-  font-family: "Roboto", sans-serif;
+  font-family: serif;
   font-weight: 400;
-  color: #33333;
+  color: #fff;
   width: 50;
 }
 
@@ -70,7 +52,6 @@ section {
 
 
 h2 {
-  background-color: #e7eaf6;
   padding: 5px;
   margin: 0;
 }
@@ -98,26 +79,15 @@ li {
   display: inline-block;
   margin: 0;
   height: 25px;
-  background-color: #e7eaf6;
 }
 
 hr {
-  border: 0.2px dashed #38598b;  
+  border: 0.2px solid #fff;  
 }
 
 a {
   display: inline-block;
-  color: #113f67;
-  background-color: #fffcbf;
+  color: #fff;
   text-decoration: none;
-}
-
-.video-mask {
-    text-align: center;
-    margin: 0 auto;
-    width: 300px;
-    border-radius: 30px; 
-    overflow: hidden; 
-    -webkit-transform: translateZ(0);
 }
 
