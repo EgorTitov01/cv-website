@@ -95,7 +95,8 @@ hr {
 
 a {
   display: inline-block;
-  color: #f7bd50;
+  color: #fff;
+  background-color: #ffc04c;
   text-decoration: none;
 }
 
